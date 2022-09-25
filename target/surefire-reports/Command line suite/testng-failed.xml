@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="testCases.ReportPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="viewTimeTrackDetails"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.ReportPageTest -->
+      <class name="testCases.TimeTrackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="rejectTimesheetRecord"/>
+          <include name="setup"/>
+          <include name="viewTimeTrackDetails"/>
+          <include name="approveTimesheetRecord"/>
+        </methods>
+      </class> <!-- testCases.TimeTrackTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

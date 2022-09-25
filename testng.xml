@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automated testing on SQA Assignment">
+
+    <listeners>
+        <listener class-name="extentreportlistener.ExtentReporterNG"/>
+    </listeners>
+
+    <test name="SQA Assignment-Automated Testing">
+        <classes>
+            <class name="testCases.LoginPageTest"/>
+            <class name="testCases.HomePageTest"/>
+            <class name="testCases.LeaveTrackPageTest"/>
+            <class name="testCases.ReportPageTest"/>
+            <class name="testCases.UserPageTest"/>
+
+        </classes>
+    </test>
+
+
+</suite>
